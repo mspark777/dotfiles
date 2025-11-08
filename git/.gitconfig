@@ -1,0 +1,18 @@
+[core]
+	editor = nvim
+	autocrlf = false
+[diff]
+	tool = nvimdiff
+[push]
+	default = simple
+[pull]
+	rebase = false
+[pager]
+	branch = false
+	config = false
+	diff = false
+[init]
+	defaultBranch = main
+[user]
+	name = mspark777
+	email = topangel777@gmail.com
