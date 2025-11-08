@@ -2,6 +2,7 @@ local parser_list = {
 	"bash",
 	"css",
 	"csv",
+	"dockerfile",
 	"git_config",
 	"git_rebase",
 	"gitattributes",
