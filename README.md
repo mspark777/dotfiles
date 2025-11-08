@@ -12,7 +12,7 @@ My dotfiles.
 6. reboot
 7. change input method Korean (Hangul)
 8. yay -Sy zen-browser-bin
-9. yay -Sy asdf-vm openssl zlib xz tk zstd fzf tmux lazygit xclip neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose
+9. yay -Sy asdf-vm openssl zlib xz tk zstd fzf tmux lazygit xclip neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx
 10. install .tool-versions
 11. install rustup
 12. ssh-keygen -t ed25519 -C "topangel777@gmail.com"
@@ -35,7 +35,7 @@ My dotfiles.
 | openssl zlib xz tk zstd                                   | python            |
 | musl                                                      | rust-musl         |
 | stow                                                      | config management |
-| docker, docker-compose, aws-cli-v2                        | development       |
+| docker, docker-compose, docker-buildx, aws-cli-v2                        | development       |
 
 ### Manually Version Control
 
