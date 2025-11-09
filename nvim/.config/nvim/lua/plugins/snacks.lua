@@ -19,12 +19,18 @@ return {
 		},
 		picker = {
 			enabled = true,
-			hidden = true,
-			ignored = true,
-			sources = { files = {
-				hidden = true,
-				ignored = true,
-			} },
+			hidden = false,
+			ignored = false,
+			sources = {
+				files = {
+					hidden = true,
+					ignored = true,
+				},
+				explorer = {
+					hidden = true,
+					ignored = true,
+				},
+			},
 		},
 		quickfile = { enabled = true },
 		scope = { enabled = true },

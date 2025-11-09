@@ -2,7 +2,7 @@
 
 My dotfiles.
 
-## Install
+## Setup steps
 
 1. pacman -Sy vi git base-devel
 2. visudo
@@ -23,6 +23,8 @@ My dotfiles.
 17. gnome extenstion manager, tophat
 18. yay -Sy kitty
 
+### Packages
+
 | Name                                                      | For               |
 | --------------------------------------------------------- | ----------------- |
 | fzf, lazygit, tmux, jq, less, yazi                        | Terminal utils    |
@@ -37,11 +39,11 @@ My dotfiles.
 | stow                                                      | config management |
 | docker, docker-compose, docker-buildx, aws-cli-v2                        | development       |
 
-### Manually Version Control
+## Manually Version Control
 
 1. [nvim-surround](https://github.com/kylechui/nvim-surround)
 
-### Bashrc
+## Bashrc
 
 ```sh
 if [[ -f ~/.mspark777.sh ]]
