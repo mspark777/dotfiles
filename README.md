@@ -19,8 +19,10 @@ My dotfiles.
 14. stow {configs}
 15. make tpm
 16. nvim
-17. gnome extenstion manager, tophat
+17. gnome extenstion manager, tophat, resources
 18. yay -S kitty, ghostty
+19. enable VGA [Wiki](https://wiki.archlinux.org/title/NVIDIA) if it's not enabled.
+
 
 ### Packages
 
