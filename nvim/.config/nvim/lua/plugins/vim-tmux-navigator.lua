@@ -6,7 +6,10 @@ return {
 		"TmuxNavigateUp",
 		"TmuxNavigateRight",
 		"TmuxNavigatePrevious",
+		"TmuxNavigatorProcessList",
 	},
+
+	--  key must set here.
 	keys = {
 		{ "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
 		{ "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>" },

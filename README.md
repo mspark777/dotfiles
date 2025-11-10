@@ -49,9 +49,9 @@ My dotfiles.
 ## Bashrc
 
 ```sh
-if [[ -f ~/.mspark777.sh ]]
+if [[ -f ~/.config/mspark777/bashrc ]]
 then
-    source ~/.mspark777.sh
+    source ~/.config/mspark777/bashrc
 fi
 ```
 
