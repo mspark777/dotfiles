@@ -11,7 +11,7 @@ My dotfiles.
 5. /etc/locale.gen (en_US.UTF8, ko_KR.UTF8), locale-gen
 6. reboot
 7. change input method Korean (Hangul)
-8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit xclip neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx
+8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit xclip neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx neofetch
 10. install .tool-versions
 11. install rustup
 12. ssh-keygen -t ed25519 -C "topangel777@gmail.com"
@@ -19,7 +19,6 @@ My dotfiles.
 14. stow {configs}
 15. make tpm
 16. nvim
-17. gnome extenstion manager, tophat, resources
 18. yay -S kitty, ghostty
 19. enable VGA [Wiki](https://wiki.archlinux.org/title/NVIDIA) if it's not enabled.
 
@@ -29,7 +28,7 @@ My dotfiles.
 
 | Name                                                      | For               |
 | --------------------------------------------------------- | ----------------- |
-| fzf, lazygit, tmux, jq, less, yazi                        | terminal utils    |
+| fzf, lazygit, tmux, jq, less, yazi, neofetch                        | terminal utils    |
 | adobe-source-han-sans-kr-fonts ibus ibus-hangul libhangul | korean fonts      |
 | ttf-hack-nerd                                             | terminal font     |
 | imagemagick                                               | image.nvim        |
