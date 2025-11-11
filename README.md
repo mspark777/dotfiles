@@ -11,7 +11,8 @@ My dotfiles.
 5. /etc/locale.gen (en_US.UTF8, ko_KR.UTF8), locale-gen
 6. reboot
 7. change input method Korean (Hangul)
-8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx neofetch wl-clipboard unzip
+8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx neofetch wl-clipboard unzip pulseaudio pulseaudio-alsa pavucontrol paprefs pulseaudio-bluetooth
+9. reboot
 10. install .tool-versions
 11. install rustup
 12. ssh-keygen -t ed25519 -C "topangel777@gmail.com"
@@ -19,33 +20,30 @@ My dotfiles.
 14. stow {configs}
 15. make tpm
 16. nvim
-18. yay -S kitty, ghostty
-19. enable VGA [Wiki](https://wiki.archlinux.org/title/NVIDIA) if it's not enabled.
-
+17. yay -S kitty, ghostty
+18. enable VGA [Wiki](https://wiki.archlinux.org/title/NVIDIA) if it's not enabled.
 
 ### Packages
 
-
-| Name                                                      | For               |
-| --------------------------------------------------------- | ----------------- |
-| fzf, lazygit, tmux, jq, less, yazi, neofetch,wl-clipboard                        | terminal utils    |
-| adobe-source-han-sans-kr-fonts ibus ibus-hangul libhangul | korean fonts      |
-| ttf-hack-nerd                                             | terminal font     |
-| imagemagick                                               | image.nvim        |
-| lldb                                                      | nvim-dap          |
-| fd                                                        | snacks.nvim       |
-| ripgrep, tree-sitter, tree-sitter-cli              | nvim              |
-| openssl zlib xz tk zstd                                   | python            |
-| musl                                                      | rust-musl         |
-| stow                                                      | config management |
-| docker, docker-compose, docker-buildx, aws-cli-v2                        | development       |
-| unzip | asdf lua |
-
+| Name                                                                | For               |
+| ------------------------------------------------------------------- | ----------------- |
+| pulseaudio pulseaudio-alsa pavucontrol paprefs pulseaudio-bluetooth | audio             |
+| fzf, lazygit, tmux, jq, less, yazi, neofetch,wl-clipboard           | terminal utils    |
+| adobe-source-han-sans-kr-fonts ibus ibus-hangul libhangul           | korean fonts      |
+| ttf-hack-nerd                                                       | terminal font     |
+| imagemagick                                                         | image.nvim        |
+| lldb                                                                | nvim-dap          |
+| fd                                                                  | snacks.nvim       |
+| ripgrep, tree-sitter, tree-sitter-cli                               | nvim              |
+| openssl zlib xz tk zstd                                             | python            |
+| musl                                                                | rust-musl         |
+| stow                                                                | config management |
+| docker, docker-compose, docker-buildx, aws-cli-v2                   | development       |
+| unzip                                                               | asdf lua          |
 
 ## Manually Version Control
 
 1. [nvim-surround](https://github.com/kylechui/nvim-surround)
-
 
 ## Bashrc
 
@@ -56,11 +54,9 @@ then
 fi
 ```
 
-
 ## LSP name
 
 https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
-
 
 ## Update
 
@@ -69,4 +65,3 @@ https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
 3. tmux prefix + U
 4. rustup update
 5. make cleanall & nvim
-

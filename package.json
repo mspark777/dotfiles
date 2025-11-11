@@ -1,0 +1,21 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "My dotfiles.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mspark777/dotfiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mspark777/dotfiles/issues"
+  },
+  "homepage": "https://github.com/mspark777/dotfiles#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
