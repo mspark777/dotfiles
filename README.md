@@ -7,7 +7,7 @@ My dotfiles.
 1. pacman -S vi git base-devel
 2. visudo
 3. yay
-4. yay -S adobe-source-han-sans-kr-fonts fcitx5 fcitx5-hangul libhangul ttf-hack-nerd
+4. yay -S adobe-source-han-sans-kr-fonts fcitx5 fcitx5-hangul fcitx5-configtool libhangul ttf-hack-nerd
 5. /etc/locale.gen (en_US.UTF8, ko_KR.UTF8), locale-gen
 6. reboot
 7. change input method Korean (Hangul)
