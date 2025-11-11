@@ -11,7 +11,7 @@ My dotfiles.
 5. /etc/locale.gen (en_US.UTF8, ko_KR.UTF8), locale-gen
 6. reboot
 7. change input method Korean (Hangul)
-8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx neofetch wl-clipboard
+8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx neofetch wl-clipboard unzip
 10. install .tool-versions
 11. install rustup
 12. ssh-keygen -t ed25519 -C "topangel777@gmail.com"
@@ -39,6 +39,7 @@ My dotfiles.
 | musl                                                      | rust-musl         |
 | stow                                                      | config management |
 | docker, docker-compose, docker-buildx, aws-cli-v2                        | development       |
+| unzip | asdf lua |
 
 
 ## Manually Version Control
