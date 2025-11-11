@@ -19,6 +19,7 @@ local parser_list = {
 	"hcl",
 	"html",
 	"http",
+	"hyprlang",
 	"javascript",
 	"jq",
 	"jsdoc",
