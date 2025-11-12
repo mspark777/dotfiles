@@ -4,7 +4,15 @@
   "spacing": 4,
   "modules-left": ["hyprland/workspaces", "custom/notification"],
   "modules-center": ["clock"],
-  "modules-right": ["network", "cpu", "memory", "disk", "pulseaudio", "tray"],
+  "modules-right": [
+    "network",
+    "custom/nvidia",
+    "cpu",
+    "memory",
+    "disk",
+    "pulseaudio",
+    "tray"
+  ],
 
   "hyperland/workspaces": {
     "disable-scroll": true,
@@ -123,5 +131,12 @@
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true
+  },
+
+  "custom/nvidia": {
+    "format": "󰾲  {}",
+    "interval": 2,
+    "exec": "sh ~/.config/waybar/nvidia.sh",
+    "return-type": "json"
   }
 }
