@@ -2,9 +2,9 @@
 {
   "height": 30,
   "spacing": 4,
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["hyprland/workspaces", "custom/notification"],
   "modules-center": ["clock"],
-  "modules-right": ["cpu", "memory", "disk", "network", "pulseaudio", "tray"],
+  "modules-right": ["network", "cpu", "memory", "disk", "pulseaudio", "tray"],
 
   "hyperland/workspaces": {
     "disable-scroll": true,
@@ -48,16 +48,16 @@
 
   "cpu": {
     "interval": 2,
-    "format": "{icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}",
+    "format": "{icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}{icon8}{icon9}{icon10}{icon11}{icon12}{icon13}{icon14}{icon15}",
     "format-icons": [
-      "<span color='#69ff94'>▁</span>", // green
-      "<span color='#2aa9ff'>▂</span>", // blue
-      "<span color='#f8f8f2'>▃</span>", // white
-      "<span color='#f8f8f2'>▄</span>", // white
-      "<span color='#ffffa5'>▅</span>", // yellow
-      "<span color='#ffffa5'>▆</span>", // yellow
-      "<span color='#ff9977'>▇</span>", // orange
-      "<span color='#dd532e'>█</span>" // red
+      "<span color='#f8f8f2'>▁</span>",
+      "<span color='#f8f8f2'>▂</span>",
+      "<span color='#f8f8f2'>▃</span>",
+      "<span color='#f8f8f2'>▄</span>",
+      "<span color='#f8f8f2'>▅</span>",
+      "<span color='#f8f8f2'>▆</span>",
+      "<span color='#f8f8f2'>▇</span>",
+      "<span color='#f8f8f2'>█</span>"
     ]
   },
 
@@ -102,5 +102,26 @@
     "interval": 2,
     "format": "{specific_used:0.2f}G  /  {specific_total:0.2f}G",
     "unit": "GB"
+  },
+
+  "custom/notification": {
+    "tooltip": true,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": " 󱅫 ",
+      "none": " 󰂜 ",
+      "dnd-notification": " 󰂠 ",
+      "dnd-none": " 󰪓 ",
+      "inhibited-notification": " 󰂛 ",
+      "inhibited-none": " 󰪑 ",
+      "dnd-inhibited-notification": " 󰂛 ",
+      "dnd-inhibited-none": " 󰪑 "
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
   }
 }
