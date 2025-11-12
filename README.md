@@ -7,7 +7,7 @@ My dotfiles.
 1. pacman -S vi git base-devel
 2. visudo
 3. yay
-4. yay -S adobe-source-han-sans-kr-fonts fcitx5 fcitx5-hangul fcitx5-configtool libhangul ttf-hack-nerd
+4. yay -S adobe-source-han-sans-kr-fonts fcitx5 fcitx5-hangul fcitx5-configtool libhangul ttf-hack-nerd ttf-font-awesome
 5. /etc/locale.gen (en_US.UTF8, ko_KR.UTF8), locale-gen
 6. reboot
 7. change input method Korean (Hangul)
@@ -25,21 +25,21 @@ My dotfiles.
 
 ### Packages
 
-| Name                                                                | For               |
-| ------------------------------------------------------------------- | ----------------- |
-| pulseaudio pulseaudio-alsa pavucontrol paprefs pulseaudio-bluetooth | audio             |
-| fzf, lazygit, tmux, jq, less, yazi, neofetch,wl-clipboard           | terminal utils    |
-| adobe-source-han-sans-kr-fonts ibus ibus-hangul libhangul           | korean fonts      |
-| ttf-hack-nerd                                                       | terminal font     |
-| imagemagick                                                         | image.nvim        |
-| lldb                                                                | nvim-dap          |
-| fd                                                                  | snacks.nvim       |
-| ripgrep, tree-sitter, tree-sitter-cli                               | nvim              |
-| openssl zlib xz tk zstd                                             | python            |
-| musl                                                                | rust-musl         |
-| stow                                                                | config management |
-| docker, docker-compose, docker-buildx, aws-cli-v2                   | development       |
-| unzip                                                               | asdf lua          |
+| Name                                                                            | For               |
+| ------------------------------------------------------------------------------- | ----------------- |
+| pulseaudio pulseaudio-alsa pavucontrol paprefs pulseaudio-bluetooth             | audio             |
+| fzf, lazygit, tmux, jq, less, yazi, neofetch,wl-clipboard                       | terminal utils    |
+| adobe-source-han-sans-kr-fonts fcitx5 fcitx5-hangul fcitx5-configtool libhangul | korean fonts      |
+| ttf-hack-nerd ttf-font-awesome                                                  | terminal font     |
+| imagemagick                                                                     | image.nvim        |
+| lldb                                                                            | nvim-dap          |
+| fd                                                                              | snacks.nvim       |
+| ripgrep, tree-sitter, tree-sitter-cli                                           | nvim              |
+| openssl zlib xz tk zstd                                                         | python            |
+| musl                                                                            | rust-musl         |
+| stow                                                                            | config management |
+| docker, docker-compose, docker-buildx, aws-cli-v2                               | development       |
+| unzip                                                                           | asdf lua          |
 
 ## Manually Version Control
 

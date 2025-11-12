@@ -12,6 +12,8 @@ return {
 			typescript = { "eslint" },
 			javascriptreact = { "eslint" },
 			typescriptreact = { "eslint" },
+			jsonc = { "eslint" },
+			json = { "eslint" },
 			go = { "golangcilint" },
 			python = { "pylint" },
 			terraform = { "terraform" },

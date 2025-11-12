@@ -15,7 +15,21 @@
     "url": "https://github.com/mspark777/dotfiles/issues"
   },
   "homepage": "https://github.com/mspark777/dotfiles#readme",
+  "prettier": {
+    "overrides": [
+      {
+        "files": "**/*.json(c|5)?",
+        "options": {
+          "trailingComma": "none"
+        }
+      }
+    ]
+  },
   "devDependencies": {
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsonc": "^2.21.0",
+    "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.5.3"
   }
 }
