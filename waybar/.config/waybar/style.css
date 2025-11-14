@@ -171,16 +171,31 @@ label:focus {
 }
 
 #cpu {
+  min-width: 200px;
   background-color: transparent;
-  color: #000000;
+  color: #ffffff;
+}
+
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#custom-nvidia:hover,
+#network:hover {
+  background-color: #f0f0f0;
 }
 
 #memory {
+  min-width: 100px;
   background-color: transparent;
 }
 
 #disk {
+  min-width: 100px;
   background-color: transparent;
+}
+
+#custom-nvidia {
+  min-width: 50px;
 }
 
 #backlight {
@@ -189,6 +204,7 @@ label:focus {
 
 #network {
   background-color: transparent;
+  min-width: 150px;
 }
 
 #network.disconnected {

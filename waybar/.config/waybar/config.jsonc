@@ -2,17 +2,14 @@
 {
   "height": 30,
   "spacing": 4,
-  "modules-left": ["hyprland/workspaces", "custom/notification"],
-  "modules-center": ["clock"],
-  "modules-right": [
-    "network",
-    "custom/nvidia",
-    "cpu",
-    "memory",
-    "disk",
-    "pulseaudio",
-    "tray"
+  "modules-left": [
+    "hyprland/workspaces",
+    "pluseaudio",
+    "tray",
+    "custom/notification"
   ],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "custom/nvidia", "memory", "disk", "network"],
 
   "hyperland/workspaces": {
     "disable-scroll": true,
@@ -58,20 +55,20 @@
     "interval": 2,
     "format": "{icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}{icon8}{icon9}{icon10}{icon11}{icon12}{icon13}{icon14}{icon15}",
     "format-icons": [
-      "<span color='#f8f8f2'>▁</span>",
-      "<span color='#f8f8f2'>▂</span>",
-      "<span color='#f8f8f2'>▃</span>",
-      "<span color='#f8f8f2'>▄</span>",
-      "<span color='#f8f8f2'>▅</span>",
-      "<span color='#f8f8f2'>▆</span>",
-      "<span color='#f8f8f2'>▇</span>",
-      "<span color='#f8f8f2'>█</span>"
+      "<span>▁</span>",
+      "<span>▂</span>",
+      "<span>▃</span>",
+      "<span>▄</span>",
+      "<span>▅</span>",
+      "<span>▆</span>",
+      "<span>▇</span>",
+      "<span>█</span>"
     ]
   },
 
   "memory": {
     "interval": 2,
-    "format": "{used:0.1f}G  /  {total:0.1f}G"
+    "format": "{used:.1f}G / {total:.1f}G"
   },
 
   "network": {
@@ -108,8 +105,16 @@
 
   "disk": {
     "interval": 2,
-    "format": "{specific_used:0.2f}G  /  {specific_total:0.2f}G",
+    "format": "{specific_used:.2f}G  /  {specific_total:.2f}G",
     "unit": "GB"
+  },
+
+  "custom/nvidia": {
+    "format": "{text}%",
+    "interval": 2,
+    "exec": "sh ~/.config/waybar/nvidia.sh",
+    "return-type": "json",
+    "min-length": "4"
   },
 
   "custom/notification": {
@@ -131,12 +136,5 @@
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true
-  },
-
-  "custom/nvidia": {
-    "format": "󰾲  {}",
-    "interval": 2,
-    "exec": "sh ~/.config/waybar/nvidia.sh",
-    "return-type": "json"
   }
 }

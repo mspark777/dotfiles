@@ -3,4 +3,4 @@
 GPU_UTIL=$(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits)
 
 
-printf '{"text": "%s"}' $GPU_UTIL%
+printf '{"text": "%s"}' "${GPU_UTIL}"
