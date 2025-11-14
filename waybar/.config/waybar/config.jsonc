@@ -4,7 +4,7 @@
   "spacing": 4,
   "modules-left": [
     "hyprland/workspaces",
-    "pluseaudio",
+    "pulseaudio",
     "tray",
     "custom/notification"
   ],
