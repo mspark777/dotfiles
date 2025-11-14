@@ -7,31 +7,13 @@
 window#waybar {
   background-color: rgba(43, 48, 59, 0.5);
   border-bottom: 3px solid rgba(100, 114, 125, 0.5);
-  color: #ffffff;
+  color: #c0caf5;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
 
 window#waybar.hidden {
   opacity: 0.2;
-}
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
-
-window#waybar.termite {
-  background-color: #3f3f3f;
-}
-
-window#waybar.chromium {
-  background-color: #000000;
-  border: none;
 }
 
 button {
@@ -56,7 +38,7 @@ button:hover {
 #workspaces button {
   padding: 0 5px;
   background-color: transparent;
-  color: #ffffff;
+  color: #c0caf5;
 }
 
 #workspaces button:hover {
@@ -96,7 +78,7 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
   padding: 0 10px;
-  color: #ffffff;
+  color: #c0caf5;
 }
 
 #window,
@@ -173,15 +155,7 @@ label:focus {
 #cpu {
   min-width: 200px;
   background-color: transparent;
-  color: #ffffff;
-}
-
-#cpu:hover,
-#memory:hover,
-#disk:hover,
-#custom-nvidia:hover,
-#network:hover {
-  background-color: #f0f0f0;
+  color: #c0caf5;
 }
 
 #memory {
