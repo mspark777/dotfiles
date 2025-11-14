@@ -4,11 +4,12 @@
   "spacing": 4,
   "modules-left": [
     "hyprland/workspaces",
+    "clock",
     "pulseaudio",
     "tray",
     "custom/notification"
   ],
-  "modules-center": ["clock"],
+  "modules-center": ["hyprland/window"],
   "modules-right": ["cpu", "custom/nvidia", "memory", "disk", "network"],
 
   "hyperland/workspaces": {
