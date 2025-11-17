@@ -37,7 +37,6 @@ My dotfiles.
 | fd                                                                              | snacks.nvim       |
 | ripgrep, tree-sitter, tree-sitter-cli                                           | nvim              |
 | openssl zlib xz tk zstd                                                         | python            |
-| musl                                                                            | rust-musl         |
 | stow                                                                            | config management |
 | docker, docker-compose, docker-buildx, aws-cli-v2                               | development       |
 | unzip                                                                           | asdf lua          |
@@ -65,4 +64,4 @@ https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
 2. asdf plugin update --all
 3. tmux prefix + U
 4. rustup update
-5. make cleanall & nvim
+5. make clean_nvim_plugins
