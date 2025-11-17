@@ -23,26 +23,10 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 -- dap
-vim.fn.sign_define("DapBreakpoint", {
-	text = "🟥",
-	texthl = "LspDiagnosticsSignError",
-	linehl = "",
-	numhl = "",
-})
-
-vim.fn.sign_define("DapBreakpointRejected", {
-	text = "",
-	texthl = "LspDiagnosticsSignHint",
-	linehl = "",
-	numhl = "",
-})
-
-vim.fn.sign_define("DapStopped", {
-	text = "⭐️",
-	texthl = "LspDiagnosticsSignInformation",
-	linehl = "DiagnosticUnderlineInfo",
-	numhl = "LspDiagnosticsSignInformation",
-})
+vim.fn.sign_define("DapBreakpoint", { text = "🔴", texthl = "DapBreakpoint", linehl = "", numhl = "" })
+vim.fn.sign_define("DapStopped", { text = "➡️", texthl = "DapStopped", linehl = "DebugLineHL", numhl = "" })
+vim.fn.sign_define("DapBreakpointCondition", { text = "🔶", texthl = "DapBreakpoint", linehl = "", numhl = "" })
+vim.fn.sign_define("DapBreakpointRejected", { text = "⚠️", texthl = "DapBreakpoint", linehl = "", numhl = "" })
 
 -- dap
 local dap = require("dap")

@@ -11,7 +11,7 @@ My dotfiles.
 5. /etc/locale.gen (en_US.UTF8, ko_KR.UTF8), locale-gen
 6. reboot
 7. change input method Korean (Hangul)
-8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx neofetch wl-clipboard unzip pulseaudio pulseaudio-alsa pavucontrol paprefs pulseaudio-bluetooth hyprshot
+8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx neofetch wl-clipboard unzip pulseaudio pulseaudio-alsa pavucontrol paprefs pulseaudio-bluetooth hyprshot fd lldb
 9. reboot
 10. install .tool-versions
 11. install rustup
