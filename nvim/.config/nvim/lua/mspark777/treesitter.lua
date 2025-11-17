@@ -1,4 +1,5 @@
 local parser_list = {
+	"asm",
 	"bash",
 	"css",
 	"csv",
