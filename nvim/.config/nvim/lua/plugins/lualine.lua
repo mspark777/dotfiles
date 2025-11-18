@@ -26,7 +26,7 @@ return {
 		},
 		sections = {
 			lualine_c = { get_venv, { "filename", path = 1 } },
-			lualine_x = { "encoding", "fileformat", "filetype" },
+			lualine_x = { "rest", "encoding", "fileformat", "filetype" },
 		},
 	},
 }
