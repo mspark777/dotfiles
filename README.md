@@ -11,7 +11,7 @@ My dotfiles.
 5. /etc/locale.gen (en_US.UTF8, ko_KR.UTF8), locale-gen
 6. reboot
 7. change input method Korean (Hangul)
-8. yay -S asdf-vm openssl zlib xz tk zstd fzf tmux lazygit lazydocker neovim gvim ripgrep imagemagick asdf-vm jq starship less yazi stow docker docker-compose docker-buildx neofetch wl-clipboard unzip pulseaudio pulseaudio-alsa pavucontrol paprefs pulseaudio-bluetooth hyprshot fd lldb
+8. yay -S {packages}
 9. reboot
 10. install .tool-versions
 11. install rustup
@@ -28,17 +28,18 @@ My dotfiles.
 | Name                                                                            | For               |
 | ------------------------------------------------------------------------------- | ----------------- |
 | hyprshot                                                                        | hyprland          |
-| pulseaudio pulseaudio-alsa pavucontrol paprefs pulseaudio-bluetooth             | audio             |
-| fzf, lazygit, lazydocker, tmux, jq, less, yazi, neofetch, wl-clipboard          | terminal utils    |
+| ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick                  | yazi              |
+| pulseaudio pulseaudio-alsa pavucontrol paprefs                                  | audio             |
+| lazygit lazydocker tmux less yazi neofetch wl-clipboard asdf-vm starship        | terminal utils    |
 | adobe-source-han-sans-kr-fonts fcitx5 fcitx5-hangul fcitx5-configtool libhangul | korean fonts      |
 | ttf-hack-nerd ttf-font-awesome                                                  | terminal font     |
 | imagemagick                                                                     | image.nvim        |
 | lldb                                                                            | nvim-dap          |
 | fd                                                                              | snacks.nvim       |
-| ripgrep, tree-sitter, tree-sitter-cli                                           | nvim              |
+| ripgrep tree-sitter tree-sitter-cli wl-clipboard                                | nvim              |
 | openssl zlib xz tk zstd                                                         | python            |
 | stow                                                                            | config management |
-| docker, docker-compose, docker-buildx, aws-cli-v2                               | development       |
+| docker docker-compose docker-buildx aws-cli-v2 gvim                             | development       |
 | unzip                                                                           | asdf lua          |
 
 ## Manually Version Control
