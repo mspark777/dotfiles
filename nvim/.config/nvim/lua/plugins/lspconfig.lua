@@ -9,6 +9,24 @@ return {
 		"antosha417/nvim-lsp-file-operations",
 	},
 	config = function()
+		vim.lsp.config("rust_analyzer", {
+			settings = {
+				["rust-analyzer"] = {
+					checkOnSave = {
+						allFeatures = true,
+						overrideCommand = {
+							"cargo",
+							"clippy",
+							"--workspace",
+							"--message-format=json",
+							"--all-targets",
+							"--all-features",
+						},
+					},
+				},
+			},
+		})
+
 		local lsp_list = {
 			"lua_ls",
 			"ts_ls",
