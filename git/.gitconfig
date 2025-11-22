@@ -1,18 +1,22 @@
 [core]
 	editor = nvim
 	autocrlf = false
+  pager = delta
 [diff]
 	tool = nvimdiff
 [push]
 	default = simple
 [pull]
 	rebase = false
-[pager]
-	branch = false
-	config = false
-	diff = false
 [init]
 	defaultBranch = main
+[delta]
+  navigate = true
+  dark = true
 [user]
 	name = mspark777
 	email = topangel777@gmail.com
+[interactive]
+    diffFilter = delta --color-only
+[merge]
+    conflictStyle = zdiff3

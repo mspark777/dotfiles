@@ -41,6 +41,7 @@ My dotfiles.
 | stow                                                                            | config management |
 | docker docker-compose docker-buildx aws-cli-v2 gvim                             | development       |
 | unzip                                                                           | asdf lua          |
+| bat git-delta                                                                   | fzf-lua           |
 
 ## Manually Version Control
 
