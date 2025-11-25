@@ -23,10 +23,19 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 -- dap
-vim.fn.sign_define("DapBreakpoint", { text = "🔴", texthl = "DapBreakpoint", linehl = "", numhl = "" })
+vim.fn.sign_define("DapBreakpoint", { text = "●", texthl = "DapBreakpoint", linehl = "", numhl = "" })
 vim.fn.sign_define("DapStopped", { text = "➡️", texthl = "DapStopped", linehl = "DebugLineHL", numhl = "" })
-vim.fn.sign_define("DapBreakpointCondition", { text = "🔶", texthl = "DapBreakpoint", linehl = "", numhl = "" })
+vim.fn.sign_define("DapBreakpointCondition", { text = "◎", texthl = "DapBreakpoint", linehl = "", numhl = "" })
 vim.fn.sign_define("DapBreakpointRejected", { text = "⚠️", texthl = "DapBreakpoint", linehl = "", numhl = "" })
+
+-- flash
+vim.keymap.set({ "n", "x", "o" }, "f", function()
+	require("flash").jump()
+end, { desc = "Flash" })
+
+vim.keymap.set({ "n", "x", "o" }, "F", function()
+	require("flash").treesitter()
+end, { desc = "Flash Treesitter" })
 
 -- dap
 local dap = require("dap")
