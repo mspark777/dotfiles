@@ -1,6 +1,5 @@
 return {
 	"hrsh7th/nvim-cmp",
-	event = "InsertEnter",
 	dependencies = {
 		"hrsh7th/cmp-nvim-lsp",
 		"hrsh7th/cmp-buffer",
@@ -8,6 +7,7 @@ return {
 		"hrsh7th/cmp-cmdline",
 		"petertriho/cmp-git",
 		"folke/lazydev.nvim",
+		"neovim/nvim-lspconfig",
 	},
 	config = function()
 		local cmp = require("cmp")
@@ -26,7 +26,6 @@ return {
 
 			sources = cmp.config.sources({
 				{ name = "nvim_lsp" },
-				{ name = "codeium" },
 				{ name = "lazydev", group_index = 0 },
 			}, {
 				{ name = "buffer" },
