@@ -40,6 +40,13 @@ vim.filetype.add({
 	},
 })
 
+vim.filetype.add({
+	pattern = {
+		["%.env"] = "sh",
+		["%.env%..+"] = "sh",
+	},
+})
+
 vim.diagnostic.config({
 	virtual_text = false,
 })
