@@ -4,6 +4,3 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 . "$HOME/.cargo/env"
 eval "$(fzf --bash)"
 eval "$(starship init bash)"
-
-alias poweroff="shutdown -h now"
-alias reboot="shutdown -r now"
