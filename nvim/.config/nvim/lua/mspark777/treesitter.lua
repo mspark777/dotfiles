@@ -22,6 +22,7 @@ local parser_list = {
 	"html",
 	"http",
 	"hyprlang",
+	"ini",
 	"javascript",
 	"jq",
 	"jsdoc",
