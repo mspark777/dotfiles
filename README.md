@@ -46,6 +46,7 @@ My dotfiles.
 ## Manually Version Control
 
 1. [nvim-surround](https://github.com/kylechui/nvim-surround)
+1. [tpm-redux](https://github.com/RyanMacG/tpm-redux)
 
 ## Bashrc
 
@@ -64,6 +65,6 @@ https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
 
 1. yay -Syu
 2. asdf plugin update --all
-3. tmux prefix + U
+3. .tmux/plugins/tpm-redux, tmux prefix + U
 4. rustup update
 5. make clean_nvim_plugins
