@@ -45,10 +45,7 @@ return {
 				type = "lldb",
 				request = "launch",
 				program = function()
-					local cwd = vim.fn.getcwd()
-					local basename = string.match(cwd, "([^/]+)$")
-					local target = vim.fn.input("Target name: ")
-					return cwd .. "/target/" .. target .. "/" .. basename
+					return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/target/debug/", "file")
 				end,
 				cwd = "${workspaceFolder}",
 				stopOnEntry = false,
