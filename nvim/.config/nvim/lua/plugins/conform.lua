@@ -21,7 +21,6 @@ return {
 				yaml = { "prettier" },
 				markdown = { "prettier" },
 				graphql = { "prettier" },
-				handlebars = { "prettier" },
 				svg = { "prettier" },
 				rust = { "rustfmt" },
 				python = { "black" },
