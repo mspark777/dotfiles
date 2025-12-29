@@ -16,6 +16,7 @@ return {
 				typescriptreact = { "prettier" },
 				css = { "prettier" },
 				html = { "prettier" },
+				htmldjango = { "prettier" },
 				json = { "prettier" },
 				jsonc = { "prettier" },
 				yaml = { "prettier" },

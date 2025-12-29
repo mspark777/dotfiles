@@ -29,6 +29,7 @@ local parser_list = {
 	"json",
 	"json5",
 	"jsonc",
+	"jinja",
 	"lua",
 	"luadoc",
 	"luap",
