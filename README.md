@@ -67,4 +67,4 @@ https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
 2. asdf plugin update --all
 3. .tmux/plugins/tpm-redux, tmux prefix + U
 4. rustup update
-5. make clean_nvim_plugins
+5. make clean-nvim-plugins
