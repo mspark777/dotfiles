@@ -20,6 +20,7 @@ local parser_list = {
 	"graphql",
 	"hcl",
 	"html",
+	"htmldjango",
 	"http",
 	"hyprlang",
 	"ini",
