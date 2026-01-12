@@ -71,6 +71,13 @@ sudo cp -r sddm /usr/share/sddm/themes/
 Current=sddm
 ```
 
+## Docker
+
+```sh
+sudo systemctl enable docker.socket
+sudo systemctl start docker.socket
+```
+
 ## Update
 
 1. yay -Syu
