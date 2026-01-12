@@ -10,7 +10,7 @@ My dotfiles.
 4. yay -S adobe-source-han-sans-kr-fonts fcitx5 fcitx5-hangul fcitx5-configtool libhangul ttf-hack-nerd ttf-font-awesome
 5. /etc/locale.gen (en_US.UTF8, ko_KR.UTF8), locale-gen
 6. reboot
-7. change input method Korean (Hangul)
+7. change input method Korean (Hangul fcitx-configtool)
 8. yay -S {packages}
 9. reboot
 10. install .tool-versions
@@ -27,7 +27,7 @@ My dotfiles.
 
 | Name                                                                            | For               |
 | ------------------------------------------------------------------------------- | ----------------- |
-| hyprshot                                                                        | hyprland          |
+| hyprshot,hyprpaper,hypridle,hyprlock                                            | hyprland          |
 | ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick                  | yazi              |
 | pulseaudio pulseaudio-alsa pavucontrol paprefs                                  | audio             |
 | lazygit lazydocker tmux less yazi neofetch wl-clipboard asdf-vm starship        | terminal utils    |
@@ -60,6 +60,16 @@ fi
 ## LSP name
 
 https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
+
+## SDDM
+
+```sh
+sudo cp -r sddm /usr/share/sddm/themes/
+
+# /etc/sddm.conf
+[Theme]
+Current=sddm
+```
 
 ## Update
 

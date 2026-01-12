@@ -7,10 +7,11 @@
     "clock",
     "pulseaudio",
     "tray",
-    "custom/notification"
+    "custom/notification",
+    "battery"
   ],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["cpu", "custom/nvidia", "memory", "disk", "network"],
+  "modules-right": ["cpu", "memory", "disk", "network"],
 
   "hyperland/workspaces": {
     "disable-scroll": true,
@@ -54,7 +55,7 @@
 
   "cpu": {
     "interval": 2,
-    "format": "{icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}{icon8}{icon9}{icon10}{icon11}{icon12}{icon13}{icon14}{icon15}",
+    "format": "{icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}",
     "format-icons": [
       "<span>▁</span>",
       "<span>▂</span>",
@@ -139,5 +140,16 @@
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true
+  },
+
+  "battery": {
+    "interval": 60,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""],
+    "max-length": 25
   }
 }
