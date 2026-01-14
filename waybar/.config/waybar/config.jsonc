@@ -70,7 +70,7 @@
 
   "memory": {
     "interval": 2,
-    "format": "{used:.1f}G / {total:.1f}G"
+    "format": "{used:.1f}G / {total:.1f}G ({swapUsed:.1f}G / {swapTotal:.1f}G)"
   },
 
   "network": {
@@ -149,7 +149,9 @@
       "critical": 15
     },
     "format": "{capacity}% {icon}",
-    "format-icons": ["", "", "", "", ""],
+    "format-charging": "{capacity}% 󰂄",
+    "format-plugged": "{capacity}% 󱟢",
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     "max-length": 25
   }
 }
