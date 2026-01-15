@@ -4,3 +4,5 @@ sudo chmod 0600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
 # /swapfile swap swap sw 0 0 >> /etc/fstab
+
+# for zram  /etc/systemd/zram-generator.conf
