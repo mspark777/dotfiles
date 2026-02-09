@@ -82,6 +82,6 @@ sudo systemctl start docker.socket
 
 1. yay -Syu
 2. asdf plugin update --all
-3. .tmux/plugins/tpm-redux, tmux prefix + U
+3. make update-tpm, tmux prefix + U
 4. rustup update
 5. make clean-nvim-plugins
