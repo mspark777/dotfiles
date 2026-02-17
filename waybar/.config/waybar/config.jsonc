@@ -82,7 +82,9 @@
       "ethernet": "  ",
       "disconnected": "󰖪  "
     },
-    "tooltip": true
+    "tooltip": true,
+    "tooltip-format": "{ifname}: {ipaddr}",
+    "rotate": 1
   },
 
   "pulseaudio": {
