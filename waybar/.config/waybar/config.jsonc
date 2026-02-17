@@ -79,11 +79,10 @@
     "format-icons": {
       "default": "🌐 ",
       "wifi": "  ",
-      "ethernet": "  "
+      "ethernet": "  ",
+      "disconnected": "󰖪  "
     },
-    "tooltip": true,
-    "tooltip-format": "{ifname}: {ipaddr}",
-    "rotate": 1
+    "tooltip": true
   },
 
   "pulseaudio": {
