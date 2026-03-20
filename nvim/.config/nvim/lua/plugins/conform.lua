@@ -29,6 +29,7 @@ return {
 				toml = { "taplo" },
 				terraform = { "terraform_fmt" },
 				xml = { "xmlformatter" },
+				sh = { "shellharden" },
 				["_"] = { "trim_whitespace" },
 			},
 			format_on_save = {

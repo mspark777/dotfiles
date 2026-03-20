@@ -29,6 +29,7 @@ local tool_list = {
 	"sqlfmt",
 	"terraform",
 	"xmlformatter",
+	"shellharden",
 	-- DAP
 	"js-debug-adapter",
 	"codelldb",

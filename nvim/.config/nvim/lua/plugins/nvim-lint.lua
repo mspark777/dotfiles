@@ -18,6 +18,7 @@ return {
 			python = { "pylint" },
 			terraform = { "terraform" },
 			rust = { "clippy" },
+			sh = { "shellharden" },
 		}
 	end,
 }

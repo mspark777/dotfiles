@@ -37,7 +37,6 @@ vim.filetype.add({
 	extension = {
 		tf = "terraform",
 		tfvars = "terraform",
-		-- html = "html",
 	},
 	pattern = {
 		["%.env"] = "sh",
@@ -48,3 +47,24 @@ vim.filetype.add({
 vim.diagnostic.config({
 	virtual_text = false,
 })
+
+if vim.env.SSH_TTY and (vim.env.TMUX == nil) then
+	local function paste()
+		return {
+			vim.fn.split(vim.fn.getreg(""), "\n"),
+			vim.fn.getregtype(""),
+		}
+	end
+
+	vim.g.clipboard = {
+		name = "OSC 52",
+		copy = {
+			["+"] = require("vim.ui.clipboard.osc52").copy("+"),
+			["*"] = require("vim.ui.clipboard.osc52").copy("*"),
+		},
+		paste = {
+			["+"] = paste,
+			["*"] = paste,
+		},
+	}
+end
