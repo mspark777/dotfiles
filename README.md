@@ -47,6 +47,7 @@ My dotfiles.
 
 1. [nvim-surround](https://github.com/kylechui/nvim-surround)
 1. [tpm-redux](https://github.com/RyanMacG/tpm-redux)
+1. [tmux-powerkit](https://github.com/fabioluciano/tmux-powerkit)
 
 ## Bashrc
 
