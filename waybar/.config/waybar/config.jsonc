@@ -11,7 +11,7 @@
     "battery"
   ],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["cpu", "memory", "disk", "network"],
+  "modules-right": ["cpu", "custom/nvidia", "memory", "disk", "network"],
 
   "hyperland/workspaces": {
     "disable-scroll": true,
