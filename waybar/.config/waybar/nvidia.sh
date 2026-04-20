@@ -1,6 +1,11 @@
 #!/bin/sh
 
-GPU_UTIL=$(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits)
+command -v nvidia-smi
+if [ $? -eq 0 ]
+then
+  gpu_util=$(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits)
+  printf '{"text": "%s"}' "$gpu_util"
+else
+  printf '{"text": "--"}'
+fi
 
-
-printf '{"text": "%s"}' "${GPU_UTIL}"
