@@ -46,8 +46,6 @@ My dotfiles.
 ## Manually Version Control
 
 1. [nvim-surround](https://github.com/kylechui/nvim-surround)
-1. [tpm-redux](https://github.com/RyanMacG/tpm-redux)
-1. [tmux-powerkit](https://github.com/fabioluciano/tmux-powerkit)
 
 ## Bashrc
 
@@ -83,6 +81,6 @@ sudo systemctl start docker.socket
 
 1. yay -Syu
 2. asdf plugin update --all
-3. make update-tpm, tmux prefix + U
+3. make update-tmux-plugins
 4. rustup update
 5. make clean-nvim-plugins

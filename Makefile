@@ -1,13 +1,13 @@
 help:
 	@cat Makefile
 
-install-tpm:
-	mkdir -p ~/.tmux/plugins
-	rm -rf ~/.tmux/plugins/*
-	git clone https://github.com/RyanMacG/tpm-redux.git ~/.tmux/plugins/tpm-redux
+update-tmux-plugins:
+	cd ~/.tmux/plugins/tmux-powerkit && git pull
+	cd ~/.tmux/plugins/vim-tmux-navigator && git pull
 
-update-tpm:
-	cd ~/.tmux/plugins/tpm-redux && git pull
+install-tmux-plugins:
+	git clone https://github.com/fabioluciano/tmux-powerkit.git ~/.tmux/plugins/tmux-powerkit
+	git clone git@github.com:christoomey/vim-tmux-navigator.git ~/.tmux/plugins/vim-tmux-navigator
 
 delete-nvim-plugins:
 	rm -rf ~/.local/share/nvim/*
