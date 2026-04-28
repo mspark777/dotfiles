@@ -1,5 +1,7 @@
 return {
 	"3rd/image.nvim",
-	event = "VeryLazy",
-	opts = {},
+	build = false,
+	opts = {
+		processor = "magick_cli",
+	},
 }
