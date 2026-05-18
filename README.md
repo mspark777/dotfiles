@@ -27,7 +27,7 @@ My dotfiles.
 
 | Name                                                                            | For               |
 | ------------------------------------------------------------------------------- | ----------------- |
-| hyprshot,hyprpaper,hypridle,hyprlock                                            | hyprland          |
+| hyprshot,hyprpaper,hypridle,hyprlock,wofi                                       | hyprland          |
 | ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick                  | yazi              |
 | pulseaudio pulseaudio-alsa pavucontrol paprefs                                  | audio             |
 | lazygit lazydocker tmux less yazi neofetch wl-clipboard asdf-vm starship        | terminal utils    |
