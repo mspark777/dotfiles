@@ -19,7 +19,6 @@ local tool_list = {
 	"rust-analyzer",
 	"pyright",
 	"terraform-ls",
-	"lemminx",
 	-- Linter
 	"golangci-lint",
 	"pylint",
@@ -28,7 +27,6 @@ local tool_list = {
 	"black",
 	"sqlfmt",
 	"terraform",
-	"xmlformatter",
 	"shellharden",
 	-- DAP
 	"js-debug-adapter",

@@ -44,7 +44,6 @@ return {
 			"rust_analyzer",
 			"pyright",
 			"terraformls",
-			"lemminx",
 		}
 
 		for _, value in ipairs(lsp_list) do

@@ -28,7 +28,7 @@ return {
 				sql = { "sqlfmt" },
 				toml = { "taplo" },
 				terraform = { "terraform_fmt" },
-				xml = { "xmlformatter" },
+				xml = { "prettier" },
 				sh = { "shellharden" },
 				["_"] = { "trim_whitespace" },
 			},
