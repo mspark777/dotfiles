@@ -1,5 +1,5 @@
-nodejs 24.16.0
-golang 1.26.3
+nodejs 24.18.0
+golang 1.26.4
 lua 5.1.5
-python 3.14.5
-terraform 1.15.4
+python 3.14.6
+terraform 1.15.7
