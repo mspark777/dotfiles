@@ -25,7 +25,6 @@ return {
 				svg = { "prettier" },
 				rust = { "rustfmt" },
 				python = { "black" },
-				sql = { "sqlfmt" },
 				toml = { "taplo" },
 				terraform = { "terraform_fmt" },
 				xml = { "prettier" },

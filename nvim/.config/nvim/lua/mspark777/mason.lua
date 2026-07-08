@@ -13,7 +13,6 @@ local tool_list = {
 	"dockerfile-language-server",
 	"taplo",
 	"graphql-language-service-cli",
-	"postgres-language-server",
 	"jq-lsp",
 	"tailwindcss-language-server",
 	"rust-analyzer",
@@ -25,7 +24,6 @@ local tool_list = {
 	-- Formatter
 	"stylua",
 	"black",
-	"sqlfmt",
 	"terraform",
 	"shellharden",
 	-- DAP

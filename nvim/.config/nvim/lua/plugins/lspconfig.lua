@@ -38,7 +38,6 @@ return {
 			"dockerls",
 			"taplo",
 			"graphql",
-			"postgres_lsp",
 			"jqls",
 			"tailwindcss",
 			"rust_analyzer",
