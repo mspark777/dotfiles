@@ -1,5 +1,4 @@
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-export FLUTTER_ROOT="$(asdf where flutter)"
 
 . <(asdf completion bash)
 . "$HOME/.cargo/env"

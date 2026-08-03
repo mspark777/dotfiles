@@ -28,7 +28,6 @@ return {
 				terraform = { "terraform_fmt" },
 				xml = { "prettier" },
 				sh = { "shellharden" },
-				dart = { "dart_format" },
 				["_"] = { "trim_whitespace" },
 			},
 			format_on_save = {
