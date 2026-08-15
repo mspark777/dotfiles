@@ -8,12 +8,12 @@ return {
 		local lint = require("lint")
 
 		lint.linters_by_ft = {
-			javascript = { "eslint" },
-			typescript = { "eslint" },
-			javascriptreact = { "eslint" },
-			typescriptreact = { "eslint" },
-			jsonc = { "eslint" },
-			json = { "eslint" },
+			javascript = { "oxlint" },
+			typescript = { "oxlint" },
+			javascriptreact = { "oxlint" },
+			typescriptreact = { "oxlint" },
+			jsonc = { "oxlint" },
+			json = { "oxlint" },
 			go = { "golangcilint" },
 			python = { "pylint" },
 			terraform = { "terraform" },

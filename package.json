@@ -2,34 +2,21 @@
   "name": "dotfiles",
   "version": "1.0.0",
   "description": "My dotfiles.",
-  "scripts": {},
+  "keywords": [],
+  "homepage": "https://github.com/mspark777/dotfiles#readme",
+  "bugs": {
+    "url": "https://github.com/mspark777/dotfiles/issues"
+  },
+  "license": "ISC",
+  "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mspark777/dotfiles.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/mspark777/dotfiles/issues"
-  },
-  "homepage": "https://github.com/mspark777/dotfiles#readme",
-  "prettier": {
-    "overrides": [
-      {
-        "files": "**/*.json(c|5)?",
-        "options": {
-          "trailingComma": "none"
-        }
-      }
-    ]
-  },
+  "scripts": {},
   "devDependencies": {
-    "eslint": "^10.8.1",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-jsonc": "^3.4.1",
-    "eslint-plugin-prettier": "^5.5.6",
-    "prettier": "^3.9.6"
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0"
   }
 }

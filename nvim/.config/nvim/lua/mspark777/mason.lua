@@ -8,7 +8,6 @@ local tool_list = {
 	"html-lsp",
 	"json-lsp",
 	"yaml-language-server",
-	"eslint-lsp",
 	"docker-compose-language-service",
 	"dockerfile-language-server",
 	"taplo",
