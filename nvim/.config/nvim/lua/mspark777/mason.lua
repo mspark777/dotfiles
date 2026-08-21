@@ -17,6 +17,7 @@ local tool_list = {
 	"rust-analyzer",
 	"pyright",
 	"terraform-ls",
+	"eslint-lsp",
 	-- Linter
 	"golangci-lint",
 	"pylint",
