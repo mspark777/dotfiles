@@ -4,3 +4,5 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 . "$HOME/.cargo/env"
 eval "$(fzf --bash)"
 eval "$(starship init bash)"
+
+export FLUTTER_ROOT="$(asdf where flutter)"

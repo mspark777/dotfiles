@@ -5,6 +5,7 @@ local parser_list = {
 	"csv",
 	"dockerfile",
 	"desktop",
+	"dart",
 	"git_config",
 	"git_rebase",
 	"gitattributes",

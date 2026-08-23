@@ -37,6 +37,7 @@ vim.filetype.add({
 	extension = {
 		tf = "terraform",
 		tfvars = "terraform",
+		arb = "json",
 	},
 	pattern = {
 		["%.env"] = "sh",
