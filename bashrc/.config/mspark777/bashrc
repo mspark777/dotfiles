@@ -6,3 +6,4 @@ eval "$(fzf --bash)"
 eval "$(starship init bash)"
 
 export FLUTTER_ROOT="$(asdf where flutter)"
+eval "$(zoxide init bash)"
