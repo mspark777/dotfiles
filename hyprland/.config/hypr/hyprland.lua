@@ -287,6 +287,7 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region --clipboard-only"))
+hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("hyprshot -m window --clipboard-only"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + H", hl.dsp.focus({ direction = "left" }))
