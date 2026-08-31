@@ -81,6 +81,6 @@ sudo systemctl start docker.socket
 
 1. yay -Syu
 2. asdf plugin update --all
-3. make tmux-plugins-update
+3. git submodule update --remote --merge
 4. rustup update
 5. make nvim-plugins-clean

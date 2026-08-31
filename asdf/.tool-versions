@@ -1,6 +1,6 @@
-nodejs 24.19.0
-golang 1.26.5
+nodejs 24.20.0
+golang 1.27.0
 lua 5.1.5
 python 3.14.7
-terraform 1.15.8
+terraform 1.16.0
 flutter 3.47.1-stable
